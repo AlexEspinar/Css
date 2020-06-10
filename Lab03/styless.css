@@ -1,0 +1,44 @@
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px;    
+    justify-content: space-evenly;
+    background-color:black;
+  }
+  
+  .item1{
+    color:white;
+    background-color:teal;
+  }
+  .item2{
+    color:white;
+    background-color:teal;
+  }
+  .item3{
+    color:white;
+    background-color:midnightblue;;
+  }
+  .item4{
+    color:white;
+    background-color:teal;
+  }
+  @media screen and (max-width: 800px){  
+    .supper-container{
+      padding: 10px;
+      border:solid 10px;
+      
+    }    
+    .grid-container{
+      display: flex;
+      flex-direction: column;            
+      background-color:transparent;
+    }
+
+    .item1{
+      background-color:midnightblue;
+    }
+    .item3{
+      background-color:teal;
+    }    
+  }
