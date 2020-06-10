@@ -1,0 +1,118 @@
+$color1:red;
+$color2:blue;
+$color3:green;
+.base-color-1{
+    background-color: red;
+}
+.base-color-2{
+    background-color: blue;
+}
+.base-color-3{
+    background-color: green;
+}
+.container-1{
+    display: grid;
+    margin: 5px;
+    grid-template-columns:repeat(9,1fr);
+    grid-gap: 5px;    
+    .box{
+        display: flex;
+        justify-content: center;        
+    }
+    .darken-1 {
+       background-color: darken($color: $color1 , $amount: 5);
+    }
+    .darken-2 {
+        background-color: darken($color: $color1 , $amount: 10);
+    }
+    .darken-3 {
+        background-color: darken($color: $color1 , $amount: 15);
+    }
+    .darken-4 {
+        background-color: darken($color: $color1 , $amount: 20);
+    }
+    .lighten-1 {
+        background-color: lighten($color: $color1 , $amount: 5);
+    }
+    .lighten-2 {
+        background-color: lighten($color: $color1 , $amount: 10);
+    }
+    .lighten-3 {
+        background-color: lighten($color: $color1 , $amount: 15);
+    }
+    .lighten-4 {
+        background-color: lighten($color: $color1 , $amount: 20);
+    }
+}
+$color1:blue;
+.container-2{
+    display: grid;    
+    margin: 5px;        
+    grid-template-columns:repeat(9,1fr);
+    grid-gap: 5px;   
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .darken-1 {
+        background-color: darken($color: $color1 , $amount: 5);
+     }
+     .darken-2 {
+         background-color: darken($color: $color1 , $amount: 10);
+     }
+     .darken-3 {
+         background-color: darken($color: $color1 , $amount: 15);
+     }
+     .darken-4 {
+         background-color: darken($color: $color1 , $amount: 20);
+     }
+     .lighten-1 {
+         background-color: lighten($color: $color1 , $amount: 5);
+     }
+     .lighten-2 {
+         background-color: lighten($color: $color1 , $amount: 10);
+     }
+     .lighten-3 {
+         background-color: lighten($color: $color1 , $amount: 15);
+     }
+     .lighten-4 {
+         background-color: lighten($color: $color1 , $amount: 20);
+     }
+}
+$color1:green;
+.container-3{
+    display: grid;
+    margin: 5px;
+    grid-template-columns:repeat(9,1fr);
+    align-content: center;
+    grid-gap: 5px;   
+    .box{
+        display: flex;
+        justify-content: center;
+    }
+    .darken-1 {
+        background-color: darken($color: $color1 , $amount: 5);       
+     }
+     .darken-2 {
+         background-color: darken($color: $color1 , $amount: 10);
+     }
+     .darken-3 {
+         background-color: darken($color: $color1 , $amount: 15);
+     }
+     .darken-4 {
+         background-color: darken($color: $color1 , $amount: 20);
+     }
+     .lighten-1 {
+         background-color: lighten($color: $color1 , $amount: 5);
+     }
+     .lighten-2 {
+         background-color: lighten($color: $color1 , $amount: 10);
+     }
+     .lighten-3 {
+         background-color: lighten($color: $color1 , $amount: 15);
+     }
+     .lighten-4 {
+         background-color: lighten($color: $color1 , $amount: 20);
+     }
+}
+
